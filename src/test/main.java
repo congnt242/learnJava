@@ -17,6 +17,8 @@ class second{
         secondDice = (int)(Math.random()*6) + 1;
         totalRoll = firstDice + secondDice;
         
+        
+        
         System.out.printf("The first dice comes up %d",firstDice);
         System.out.printf("\nThe second dice comes up %d",secondDice);
         System.out.printf("\nYour total roll is %d",totalRoll);

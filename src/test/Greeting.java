@@ -10,6 +10,5 @@ public class Greeting {
         user = userName.nextLine();
         userNameUppercase = user.toUpperCase();
         System.out.print("\nHello "+userNameUppercase+", nice to meet you.");
-        
     }
 }
